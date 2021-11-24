@@ -3,7 +3,7 @@
  '/
 
  skinparam {
-    backgroundColor White
+    backgroundColor transparent
     monochrome false 
     'Black and White MODE
     title {
@@ -27,7 +27,7 @@
         }
     }
     note {
-        BorderColor #7f8c8d
+        BorderColor #555555
         BackgroundColor #7f8c8d
         Font {
             Size 12
@@ -47,7 +47,7 @@
     Activity {
         StartColor Black
         EndColor Black
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         BarColor Navy
         Font {
@@ -57,14 +57,14 @@
         }
         
         Diamond {
-            BackgroundColor #eeeeee
+            BackgroundColor #efefef
             BorderColor SteelBlue
         }
     }
     State {
         StartColor Black
         EndColor Black
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         BarColor Navy
         Font {
@@ -74,7 +74,7 @@
         }
     }
     Object {
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         BarColor Navy
         Font {
@@ -84,7 +84,7 @@
         }
     }
     class {
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         Font {
             Color Black
@@ -93,7 +93,7 @@
         }
     }
     component {
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         Font {
             Color Black
@@ -101,7 +101,7 @@
             Size 12
         }
         Interface {
-            BackgroundColor #eeeeee
+            BackgroundColor #efefef
             BorderColor #999999
             Font {
                 Color Black
@@ -110,7 +110,7 @@
             }
         }
         node {
-            backgroundColor #eeeeee
+            backgroundColor #efefef
             borderColor #999999
             Font {
                 Color Black
@@ -119,7 +119,7 @@
             }
         }
         database {
-            backgroundColor #eeeeee
+            backgroundColor #efefef
             borderColor #999999
             Font {
                 Color Black
@@ -129,7 +129,7 @@
         }
     }
     usecase {
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         Font {
             Color Black
@@ -137,7 +137,7 @@
             Size 12
         }
         actor {
-            BackgroundColor LightYellow
+            BackgroundColor #efefef
             BorderColor Brown
             Font {
                 Color Black
@@ -147,7 +147,7 @@
         }
     }
     sequence {
-        BackgroundColor #eeeeee
+        BackgroundColor #efefef
         BorderColor #999999
         Font {
             Color Black
@@ -159,7 +159,7 @@
             BorderColor #999999
         }
         actor {
-            BackgroundColor LightYellow
+            BackgroundColor #efefef
             BorderColor Brown
             Font {
                 Color Black
@@ -168,7 +168,7 @@
             }
         }
         Participant {
-            BackgroundColor #eeeeee
+            BackgroundColor #efefef
             BorderColor #999999
             Font {
                 Color Black
@@ -177,7 +177,7 @@
             }
         }
         boundary {
-            BackgroundColor #eeeeee
+            BackgroundColor #efefef
             BorderColor #999999
             Font {
                 Color Black
@@ -186,7 +186,7 @@
             }
         }
         control {
-            BackgroundColor LightYellow
+            BackgroundColor #efefef
             BorderColor Brown
             Font {
                 Color Black
@@ -195,7 +195,7 @@
             }
         }
         entity {
-            BackgroundColor LightYellow
+            BackgroundColor #efefef
             BorderColor Brown
             Font {
                 Color Black
@@ -204,7 +204,7 @@
             }
         }
         database {
-            BackgroundColor LightYellow
+            BackgroundColor #efefef
             BorderColor Brown
             Font {
                 Color Black
