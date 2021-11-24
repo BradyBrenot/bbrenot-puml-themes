@@ -1,0 +1,235 @@
+/'
+ ' Decent looking general PlantUML style.
+ '/
+
+ skinparam {
+    backgroundColor White
+    monochrome false 
+    'Black and White MODE
+    title {
+        Font {
+            Color Black
+            Style bold
+            Size 28
+        }
+    }
+    header {
+        Font {
+            Color Red
+            Size 12
+        }
+    }
+    footer {
+    }
+    legend {
+        Font {
+            Size 12
+        }
+    }
+    note {
+        BorderColor #7f8c8d
+        BackgroundColor #7f8c8d
+        Font {
+            Size 12
+            Color #ffffff
+        }
+    }
+
+    Arrow {
+        Color Black
+        Font {
+            Color Black
+            Style plain 
+            Size 12
+        }
+    }
+
+    Activity {
+        StartColor Black
+        EndColor Black
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        BarColor Navy
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+        
+        Diamond {
+            BackgroundColor #eeeeee
+            BorderColor SteelBlue
+        }
+    }
+    State {
+        StartColor Black
+        EndColor Black
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        BarColor Navy
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+    }
+    Object {
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        BarColor Navy
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+    }
+    class {
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+    }
+    component {
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+        Interface {
+            BackgroundColor #eeeeee
+            BorderColor #999999
+            Font {
+                Color Black
+                Style plain 
+                Size 14
+            }
+        }
+        node {
+            backgroundColor #eeeeee
+            borderColor #999999
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+        database {
+            backgroundColor #eeeeee
+            borderColor #999999
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+    }
+    usecase {
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+        actor {
+            BackgroundColor LightYellow
+            BorderColor Brown
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+    }
+    sequence {
+        BackgroundColor #eeeeee
+        BorderColor #999999
+        Font {
+            Color Black
+            Style bold 
+            Size 12
+        }
+        LifeLine {
+            BackgroundColor OldLace       
+            BorderColor #999999
+        }
+        actor {
+            BackgroundColor LightYellow
+            BorderColor Brown
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+        Participant {
+            BackgroundColor #eeeeee
+            BorderColor #999999
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+        boundary {
+            BackgroundColor #eeeeee
+            BorderColor #999999
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+        control {
+            BackgroundColor LightYellow
+            BorderColor Brown
+            Font {
+                Color Black
+                Style plain 
+                Size 14
+            }
+        }
+        entity {
+            BackgroundColor LightYellow
+            BorderColor Brown
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+        database {
+            BackgroundColor LightYellow
+            BorderColor Brown
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+        box {
+            BackgroundColor AliceBlue
+            BorderColor #999999
+            Font {
+                Color Black
+                Style bold 
+                Size 12
+            }
+        }
+    }
+}
+
+skinparam {
+  stateFontColor<<screen>> #ffffff
+	stateBorderColor<<screen>> #2980b9
+	stateBackgroundColor<<screen>> #3498db
+
+  stateFontColor<<error>> #ffffff
+	stateBorderColor<<error>> #c0392b
+	stateBackgroundColor<<error>> #e74c3c
+}
